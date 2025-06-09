@@ -32,3 +32,7 @@ ignore = [
   "PD002",   # Allow pandas inplace=True (commonly used)
   "NPY002",  # Allow legacy numpy random usage (common)
 ]
+[format]
+line-ending = "cr-lf" # Use `\n` line endings for all files
+docstring-code-format = true # Enable reformatting of code snippets in docstrings
+docstring-code-line-length = 60 # Format all docstring code snippets with a line length of 60
