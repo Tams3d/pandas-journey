@@ -1,3 +1,5 @@
+line-length = 79
+
 [lint]
 
 # Rules to check (select):
@@ -19,19 +21,17 @@ select = [
 
 # Rules to ignore because they're either noisy or not relevant in your context
 ignore = [
-  "D100",    # Missing docstring in module (often noisy in notebooks)
+  "D100",    # Missing docstring in module
   "D104",    # Missing docstring in public package
   "D107",    # Missing docstring in __init__ file
-  "RUF005",  # Allow .format() instead of always requiring f-strings
-  "RUF013",  # Mutable class variables (allow common notebook patterns)
+  "RUF013",  # Mutable class variables
   "W291",    # Allow trailing whitespaces
-  "B008",    # Function calls in default argument values (common in quick scripts)
-  "SIM105",  # contextlib.suppress usage (sometimes less readable)
-  "PLR2004", # Magic numbers in comparisons (okay for exploratory code)
-  "N816",    # MixedCase global variables (common in notebooks)
-  "PD002",   # Allow pandas inplace=True (commonly used)
-  "NPY002",  # Allow legacy numpy random usage (common)
+  "B008",    # Function calls in default argument values
+  "N816",    # MixedCase global variables
+  "N806",    # MixedCase in Function scope variables
+  "NPY002",  # Allow legacy numpy random usage
 ]
+
 [format]
 line-ending = "cr-lf" # Use `\n` line endings for all files
 docstring-code-format = true # Enable reformatting of code snippets in docstrings
