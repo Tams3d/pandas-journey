@@ -30,6 +30,8 @@ ignore = [
   "N816",    # MixedCase global variables
   "N806",    # MixedCase in Function scope variables
   "NPY002",  # Allow legacy numpy random usage
+  "PD010" ,   # Allow unstack() and pivot()
+  "PD013",   # Allow stack()
 ]
 
 [format]
