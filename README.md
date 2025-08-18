@@ -90,5 +90,5 @@ An in-depth, hands-on Pandas crash course covering real-world data workflows fro
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/Tams3d/pandas-journey/blob/master/LICENSE).
 You are free to use, modify, and distribute the code with proper attribution.
