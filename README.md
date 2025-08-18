@@ -11,7 +11,7 @@ This project follows my path from the basics of handling tabular data to more ad
 
 Along the way, I used **Jupyter Notebooks** to experiment with ideas and explore patterns in the data. For visualization, I relied on **Matplotlib** and **Seaborn** to bring insights to life in a more intuitive way. To maintain clean, readable code, I used **Ruff** for linting and managed dependencies with **uv** to ensure a fast and reproducible environment.
 
-This repo is part learning log, part personal reference — organized so others can follow along or revisit key topics at any time.
+This repo is part learning log, part personal reference organized so others can follow along or revisit key topics at any time.
 
 ---
 
@@ -75,7 +75,7 @@ A handy reference guide summarizing the most common Pandas operations.
 
 - Python for Data Analysis – Wes McKinney (English)  
 [Read online](https://wesmckinney.com/book/)  
-A comprehensive guide to using Pandas, written by its creator — great for both beginners and experienced users.
+A comprehensive guide to using Pandas, written by its creator, great for both beginners and experienced users.
 
 - Pandas Tutorial Series – Corey Schafer (English)  
 [Watch on YouTube](https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS)  
@@ -83,11 +83,11 @@ A practical tutorial series on the core Pandas features; slightly older but stil
 
 - Pandas Tutorial – CampusX (Hindi)  
 [Watch on YouTube](https://www.youtube.com/watch?v=zCDVUyq8lkw)  
-Beginner-friendly, well-paced Pandas tutorial in Hindi — great for getting started with data analysis.
+Beginner-friendly, well-paced Pandas tutorial in Hindi, great for getting started with data analysis.
 
-- Pandas Full Course – Keith Galli (English)  
-[Watch on YouTube](https://www.youtube.com/watch?v=r-uOLxNrNk8&t=7028s)  
-An in-depth, hands-on Pandas crash course covering real-world data workflows from start to finish.
+- Pandas Exercises – guipsamora (GitHub)  
+[Explore on GitHub](https://github.com/guipsamora/pandas_exercises)  
+A comprehensive collection of practical exercises covering topics like data filtering, merging, grouping, time series analysis, and visualization.
 
 ## 📜 License
 
