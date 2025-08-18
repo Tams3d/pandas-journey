@@ -35,6 +35,6 @@ ignore = [
 ]
 
 [format]
-line-ending = "cr-lf" # Use `\n` line endings for all files
+line-ending = "lf" # Use `\n` line endings for all files
 docstring-code-format = true # Enable reformatting of code snippets in docstrings
 docstring-code-line-length = 60 # Format all docstring code snippets with a line length of 60
