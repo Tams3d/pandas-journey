@@ -1,19 +1,39 @@
 [project]
 name = "pandas-journey"
 version = "0.1.0"
-description = "Add your description here"
+description = "A hands-on, personal journey through data analysis with Pandas - a powerful library for working with structured data in Python."
 readme = "README.md"
 requires-python = ">=3.13"
+license = "MIT"
+
+authors = [
+  { name = "Tamil Selvan" }
+]
+
+keywords = [
+  "pandas",
+  "data analysis",
+  "python",
+  "dataframes",
+  "eda",
+  "groupby",
+  "filtering",
+  "sorting",
+  "jupyter notebook",
+  "scientific computing",
+  "learning"
+]
+
 dependencies = [
-    "matplotlib>=3.10.3",
-    "numpy>=2.3.0",
-    "pandas>=2.3.0",
-    "seaborn>=0.13.2",
+  "matplotlib>=3.10.3",
+  "numpy>=2.3.0",
+  "pandas>=2.3.0",
+  "seaborn>=0.13.2",
 ]
 
 [dependency-groups]
 dev = [
-    "ipykernel>=6.30.1",
-    "pip>=25.2",
-    "ruff>=0.12.7",
+  "ipykernel>=6.30.1",
+  "pip>=25.2",
+  "ruff>=0.12.7",
 ]
