@@ -1,4 +1,4 @@
-markdown<div align="center">
+<div align="center">
 <img width="1560" height="640" alt="Pandas" src="https://github.com/user-attachments/assets/98e81d5a-5f34-440a-82e8-aacdd68db8b9" />
 
 # pandas-journey
@@ -13,72 +13,81 @@ markdown<div align="center">
 [![Ruff](https://img.shields.io/badge/Ruff-Linter-D7FF64?style=flat-square&logo=ruff&logoColor=black)](https://github.com/astral-sh/ruff)
 [![uv](https://img.shields.io/badge/uv-Package%20Manager-DE5FE9?style=flat-square&logo=python&logoColor=white)](https://github.com/astral-sh/uv)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)](https://github.com/Tams3d/pandas-journey)
-[![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg?style=flat-square)](https://github.com/astral-sh/ruff)
+[![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000?style=flat-square)](https://github.com/astral-sh/ruff)
 [![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red?style=flat-square)](https://github.com/Tams3d/pandas-journey)
 
-*A hands-on learning repository for data analysis with Pandas, NumPy, Matplotlib, and Seaborn*
+_A hands-on learning repository for data analysis with Pandas, NumPy, Matplotlib, and Seaborn_
+
+[Installation](#installation) • [Topics](#topics-covered) • [Resources](#resources) • [About](#about)
 
 </div>
 
+---
+
 ## Overview
 
-This repository is basically a collection of everything I've learnt while working with Pandas. I started from the basics like Series and DataFrames, and gradually moved towards more complex stuff like grouping, merging, and multi-index operations. Each notebook here represents a specific topic that I've explored in detail.
+This repository documents everything I've learned while working with Pandas. Starting from the basics like Series and DataFrames, I gradually moved towards more complex topics like grouping, merging, and multi-index operations. Each notebook represents a specific topic explored in detail.
 
-The whole idea was to learn by doing - working with actual datasets, experimenting with different methods, and visualising the results using Matplotlib and Seaborn. I've also used Ruff to keep the code clean and uv for managing dependencies efficiently.
+The core philosophy is learning by working with actual datasets, experimenting with different methods, and visualizing results using Matplotlib and Seaborn. I've used Ruff to maintain clean code and uv for efficient dependency management.
 
-## Getting Started
+## Installation
 
-### Installation
+### Prerequisites
 
-First, clone this repository:
+- Python 3.13 or above
+- Git
+
+### Setup
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/Tams3d/pandas-journey.git
 cd pandas-journey
 ```
 
-It's better to create a virtual environment (highly recommended):
+Create and activate a virtual environment (highly recommended):
 
 ```bash
 python -m venv .venv
 
-# For Windows
+# Windows
 .venv\Scripts\activate
 
-# For macOS/Linux
+# macOS/Linux
 source .venv/bin/activate
 ```
 
-Now install all the required packages:
+Install dependencies:
 
 ```bash
 uv sync
 ```
 
-This will automatically install pandas, matplotlib, seaborn, ruff, and all other dependencies mentioned in the `pyproject.toml` file.
+This automatically installs pandas, matplotlib, seaborn, ruff, and all other dependencies specified in `pyproject.toml`.
 
 ## Topics Covered
 
 ### Fundamentals
 
-- **Series Operations**: Creation, indexing, and basic operations
-- **DataFrame Basics**: Structure, creation, and fundamental operations
-- **Data Access**: Techniques for retrieving and filtering data
+- **Series Operations** - Creation, indexing, and basic operations
+- **DataFrame Basics** - Structure, creation, and fundamental operations
+- **Data Access** - Techniques for retrieving and filtering data
 
 ### Intermediate Techniques
 
-- **Data Modification**: Updating, adding, and removing data
-- **Built-in Methods**: Leveraging pandas' extensive method library
-- **String Operations**: Text processing and manipulation
+- **Data Modification** - Updating, adding, and removing data
+- **Built-in Methods** - Leveraging pandas' extensive method library
+- **String Operations** - Text processing and manipulation
 
 ### Advanced Topics
 
-- **GroupBy Operations**: Split-apply-combine workflows and aggregations
-- **Merging DataFrames**: Joins, concatenation, and combining datasets
-- **MultiIndex**: Working with hierarchical indices
-- **Time Series**: Datetime handling and temporal analysis
+- **GroupBy Operations** - Split-apply-combine workflows and aggregations
+- **Merging DataFrames** - Joins, concatenation, and combining datasets
+- **MultiIndex** - Working with hierarchical indices
+- **Time Series** - Datetime handling and temporal analysis
 
 ### Visualization
 
@@ -86,36 +95,41 @@ This will automatically install pandas, matplotlib, seaborn, ruff, and all other
 - Statistical graphics with Seaborn
 - Customizing visualizations for data presentation
 
-You can go through the notebooks in order (recommended for beginners) or jump to any specific topic you want to learn about. Each notebook has proper explanations along with code examples and their outputs.
+## Resources
 
-## About Me
+- **Pandas Cheat Sheet** – pandas.pydata.org (Official)  
+  [Download PDF](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) - A handy reference guide summarizing the most common Pandas operations.
 
-I'm 18 and deeply interested in AI, machine learning, and data science. I've realised that the best way for me to learn is by actually building things and experimenting with real problems rather than just reading theory.
+- **Python for Data Analysis** – Wes McKinney (English)  
+  [Read online](https://wesmckinney.com/book/) - A comprehensive guide to using Pandas, written by its creator, great for both beginners and experienced users.
 
-Apart from programming, I enjoy creative work like photo and video editing, and 3D design using Blender. I often try to combine these creative interests with technical skills to build useful tools and workflows.
+- **Pandas Tutorial Series** – Corey Schafer (English)  
+  [Watch on YouTube](https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) - A practical tutorial series on core Pandas features; slightly older but still very relevant.
 
-Right now, I'm focusing on deep learning and generative AI. My long-term goal is to contribute to research work and open-source projects in the AI domain. This repository is part of building that foundation - understanding core tools like Pandas is essential for any serious work in data science or ML.
+- **Pandas Tutorial** – CampusX (Hindi)  
+  [Watch on YouTube](https://www.youtube.com/watch?v=zCDVUyq8lkw) - Beginner-friendly, well-paced Pandas tutorial in Hindi, great for getting started with data analysis.
 
-## Useful Resources
+- **Pandas Exercises** – guipsamora (GitHub)  
+  [Explore on GitHub](https://github.com/guipsamora/pandas_exercises) - A comprehensive collection of practical exercises covering topics like data filtering, merging, grouping, time series analysis, and visualization.
 
-- Pandas Cheat Sheet – pandas.pydata.org (Official)  
-[Download PDF](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)  
-A handy reference guide summarizing the most common Pandas operations.
+## About
 
-- Python for Data Analysis – Wes McKinney (English)  
-[Read online](https://wesmckinney.com/book/)  
-A comprehensive guide to using Pandas, written by its creator, great for both beginners and experienced users.
+I'm 18 and deeply interested in AI, machine learning, and data science. I've realized that the best way to learn is by building things and experimenting with real problems rather than just reading theory.
 
-**Video Tutorials**  
-[Corey Schafer's Pandas Playlist](https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) – Really well-explained tutorials (slightly older but still relevant)  
-[CampusX Tutorial in Hindi](https://www.youtube.com/watch?v=zCDVUyq8lkw) – Great for Hindi speakers, very beginner-friendly
+Apart from programming, I enjoy creative work like photo and video editing, and 3D design using Blender. I often combine these creative interests with technical skills to build useful tools and workflows.
 
-- Pandas Tutorial – CampusX (Hindi)  
-[Watch on YouTube](https://www.youtube.com/watch?v=zCDVUyq8lkw)  
-Beginner-friendly, well-paced Pandas tutorial in Hindi, great for getting started with data analysis.
+Right now, I'm focusing on deep learning and generative AI. My long-term goal is to contribute to research and open-source projects in the AI domain. This repository is part of building that foundation - understanding core tools like Pandas is essential for any serious work in data science or ML.
 
-## Licence
+## License
 
-This project is released under the MIT Licence. Check the [LICENSE](https://github.com/Tams3d/pandas-journey/blob/master/LICENSE) file for more details.
+This project is released under the MIT Licence. Check the [LICENSE](https://github.com/Tams3d/pandas-journey/blob/master/LICENSE) file for more details
 
-**Note**: This is primarily a learning repository. The code here reflects my learning process, so it might not always follow production-level best practices. The focus is on understanding concepts through hands-on experimentation.
+<div align="center">
+
+**⭐ If you find this repository helpful, please consider giving it a star!**
+
+_This is primarily a learning repository. The code reflects my learning process and may not always follow production-level best practices. The focus is on understanding concepts through hands-on experimentation._
+
+Made with 🤍 by [Tamil Selvan](https://github.com/Tams3d)
+
+</div>
